@@ -1,0 +1,47 @@
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+form input{
+  margin-left: 800px;
+  width: 100px;
+  height: 70px;
+}
+
+form input,
+form button {
+ 
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 2000px;
+  height: 70px;
+  border: none;
+  background: white;
+}
+form button {
+  color: #ff6f47;
+  background: #f7fffe;
+  transition: all 0.3s ease;
+  width: 100px;
+}
+
+form button:hover::before {
+  top: 0;
+  left: 0;
+}
+form button:hover {
+  background: #d345b4;
+  color: white;
+  border-bottom: 4px solid 
+
+}
+.filter-todo {
+  padding: 1rem;
+}
+
+

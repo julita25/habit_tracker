@@ -1,0 +1,54 @@
+.todo {
+    position: relative;
+    border-radius: 20px;
+    top: 50%;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.wrapper {
+    float: right;
+  
+
+}
+
+.btn {
+    
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    position:relative;
+    transition: width 0.2s ease-in-out;
+    color:white;
+    background-color: violet;
+    
+}
+
+.expand {
+  
+   width: 80px;
+   height: 30px;
+      
+}
+
+
+
+
+.habit { 
+    background: #f9fcfb;
+	color: #497081;
+	padding: 10px 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 14px rgba(0,0,0,0.15);
+	width: 400px;
+    border-color: black;
+	
+
+}
